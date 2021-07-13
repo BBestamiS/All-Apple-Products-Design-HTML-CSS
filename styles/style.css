@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.apple,
+.iphone5-5s{
+    width: 100%;
+    height: 100%;;
+}
+.apple{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main {
+    height: 100vh;
+}
+.iphone5-5s{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.five-s-h1{
+    
+    font-size: 5vh;
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.phone{
+    z-index: 2;
+    background-color: rgb(233, 233, 233);
+    position: relative;
+    aspect-ratio: 47/100;
+    width: 15%;
+    border: 0.35vw solid black;
+    border-radius: 2.3vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.speaker,
+.camera,
+.screen,
+.home-button{
+    border: 0.2vw solid black;
+}
+.screen{
+    aspect-ratio: 9/16;
+    width: 90%;
+   
+}
+.screen{
+    background-color:black;
+}
+.top{
+    position: absolute;
+    top: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.camera{
+    background-color: black;
+    position: absolute;
+    top: -200%;
+    aspect-ratio: 1/1;
+    width: 5%;
+    
+    border-radius: 50%;
+}
+.speaker{
+    background-color: rgba(49, 49, 49, 0.37);
+    aspect-ratio: 5/1;
+    width: 20%;
+    
+    border-radius: 10px;
+}
+.home-button{
+    background-color: rgba(139, 139, 139, 0.37);
+    aspect-ratio: 1/1;
+    width: 20%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 2%;
+}
+.power-button,
+.mute-button,
+.volume-button-1,
+.volume-button-2{
+    position: absolute;
+    background-color: black;
+}
+.mute-button,
+.volume-button-1,
+.volume-button-2{
+    width: 1.5%;
+    aspect-ratio: 1/6;
+}
+.mute-button{
+    top: 13%;
+    left: -4%;
+    aspect-ratio: 1/8;
+}
+.volume-button-1{
+    top: 24%;
+    left: -4%;
+}
+.volume-button-2{
+    top: 33%;
+    left: -4%;
+}
+.power-button{
+    aspect-ratio: 10/1;
+    width: 15%;
+    top: -1.5%;
+    right: 15%;
+}
+.background{
+    z-index: 0;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.background-color{
+height:20%;
+display: inline-block
+}
+.green{
+    background-color: rgb(68,181,71);
+}
+.yellow{
+    background-color: rgb(250, 201, 123);
+}
+.orange{
+    background-color: rgb(252,118,42);
+}
+.red{
+    background-color: rgb(231,46,56);
+}
+.purple{
+    background-color: rgb(147,51,138);
+}
+.blue{
+    background-color: rgb(0,149,212);
+}
+.orange{
+    background-color: rgb(255,177,55);
+}
+
+/*iPhone 5 5s End*/
+
+@media only screen and (max-width:1281px) {
+    .speaker,
+    .camera,
+    .screen,
+    .home-button{
+        border: 0.3vw solid black;
+}
+    .phone{
+        width: 25%;
+        border: 0.58vw solid black;
+        border-radius: 3.8vw;
+    }
+    /*iPhone 5 5s End*/
+}
+@media only screen and (max-width:801px) {
+    .speaker,
+    .camera,
+    .screen,
+    .home-button{
+        border: 0.42vw solid black;
+}
+    .phone{
+        width: 35%;
+        border: 0.81vw solid black;
+        border-radius: 5.3vw;
+    }
+    /*iPhone 5 5s End*/
+}
+@media only screen and (max-width:501px) {
+    .speaker,
+    .camera,
+    .screen,
+    .home-button{
+        border: 0.66vw solid black;
+}
+    .phone{
+        width: 55%;
+        border: 1.27vw solid black;
+        border-radius: 8.3vw;
+    }
+    .five-s-h1{
+        font-size: 9vw;
+        font-family: 'Inconsolata', monospace;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    /*iPhone 5 5s End*/
+}
