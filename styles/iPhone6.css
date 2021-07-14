@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.apple-iphone-6,
+.iphone-6{
+    width: 100%;
+    height: 100%;;
+}
+.apple-iphone-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-iphone-6 {
+    height: 100vh;
+}
+.iphone-6{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.five-s-h1-iphone-6{
+    
+    font-size: 5vh;
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.phone-iphone-6{
+    z-index: 2;
+    background-color: rgb(233, 233, 233);
+    position: relative;
+    aspect-ratio: 49/100;
+    width: 15%;
+    border: 0.35vw solid black;
+    border-radius: 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.speaker-iphone-6,
+.camera-iphone-6,
+.screen-iphone-6,
+.home-button-iphone-6{
+    border: 0.2vw solid black;
+}
+.screen-iphone-6{
+    aspect-ratio: 9/16;
+    width: 90%;
+   
+}
+.screen-iphone-6{
+    background-color:black;
+}
+.top-iphone-6{
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.camera-iphone-6{
+    background-color: black;
+    position: absolute;
+    left: 30%;
+    aspect-ratio: 1/1;
+    width: 4%;
+    border-radius: 50%;
+}
+.censor-iphone-6{
+    background-color: black;
+    position: absolute;
+    top: -200%;
+    aspect-ratio: 1/1;
+    width: 3%;
+    
+    border-radius: 50%;
+}
+.speaker-iphone-6{
+    background-color: rgba(49, 49, 49, 0.37);
+    aspect-ratio: 5/1;
+    width: 20%;
+    border-radius: 10px;
+}
+.home-button-iphone-6{
+    background-color: rgba(139, 139, 139, 0.37);
+    aspect-ratio: 1/1;
+    width: 17%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 2%;
+}
+.power-button-iphone-6,
+.mute-button-iphone-6,
+.volume-button-1-iphone-6,
+.volume-button-2-iphone-6{
+    position: absolute;
+    background-color: black;
+}
+.mute-button-iphone-6,
+.volume-button-1-iphone-6,
+.volume-button-2-iphone-6{
+    width: 1.5%;
+    aspect-ratio: 1/10;
+}
+.mute-button-iphone-6{
+    top: 13%;
+    left: -4%;
+    aspect-ratio: 1/6;
+}
+.volume-button-1-iphone-6{
+    top: 22%;
+    left: -4%;
+}
+.volume-button-2-iphone-6{
+    top: 31%;
+    left: -4%;
+}
+.power-button-iphone-6{
+    aspect-ratio: 1/9;
+    width: 2%;
+    top: 20%;
+    right: -4.3%;
+}
+.background-iphone-6{
+    z-index: 0;
+    position: absolute;
+    top: 0px;
+    border-color: #98DDCA #D5ECC2 #FFD3B4 #FFAAA7;
+    border-style: solid;
+    border-width: 50vh 50vw 50vh 50vw;
+    width: 0px;
+    height: 0px;
+}
+.text-iphone-6{
+    height: 17vh;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    bottom: 0px;
+}
+.background-color-iphone-6{
+height:20%;
+display: inline-block
+}
+
+
+@media only screen and (max-width:1281px) {
+    .speaker-iphone-6,
+    .camera-iphone-6,
+    .screen-iphone-6,
+    .home-button-iphone-6{
+        border: 0.3vw solid black;
+}
+    .phone-iphone-6{
+        width: 25%;
+        border: 0.58vw solid black;
+        border-radius: 4.1vw;
+    }
+}
+@media only screen and (max-width:801px) {
+    .speaker-iphone-6,
+    .camera-iphone-6,
+    .screen-iphone-6,
+    .home-button-iphone-6{
+        border: 0.42vw solid black;
+}
+    .phone-iphone-6{
+        width: 35%;
+        border: 0.81vw solid black;
+        border-radius: 5.7vw;
+    }
+    .five-s-h1-iphone-6{
+        font-size: 5vw;
+        font-family: 'Inconsolata', monospace;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+}
+@media only screen and (max-width:501px) {
+    .speaker-iphone-6,
+    .camera-iphone-6,
+    .screen-iphone-6,
+    .home-button-iphone-6{
+        border: 0.66vw solid black;
+}
+    .phone-iphone-6{
+        width: 55%;
+        border: 1.27vw solid black;
+        border-radius: 8.9vw;
+    }
+   
+}

@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.iphone5{
+    background-color: bisque;
+    height: 100vh;
+    width: 100vw;
+}
+.iphone6{
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+}

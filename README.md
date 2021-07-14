@@ -24,8 +24,8 @@ __Note:__ All products in this project has completely responsive design.
 
 ## List Of Products 😍
 
-* iPhone 5 - 5s
-* iPhone 6 - ..... - 8 Plus (Same Design)
+* iPhone 5 - 5s ✅
+* iPhone 6 - ..... - 8 Plus (Same Design) ✅
 * iPhone 10
 * iPhone 11 - ..... - 12 Pro Max (Same Design)
 * MacBook Air (2017 - 2021)
@@ -42,7 +42,10 @@ __Note:__ All products in this project has completely responsive design.
 
 ### iPhone 5 - 5s
 
-<p align="center"><img width="850px" src="/md pic/iphone5-5s.png" alt="Screen Shoooot" style="zoom:33%;" /></p>
+<p align="center"><img width="850px" src="/md pic/iphone5.jpg" alt="Screen Shoooot" style="zoom:33%;" /></p>
+### iPhone 6 - 6s - 7 - 8 - SE 
+
+<p align="center"><img width="850px" src="/md pic/iphone6.jpg" alt="Screen Shoooot" style="zoom:33%;" /></p>
 
 
 
